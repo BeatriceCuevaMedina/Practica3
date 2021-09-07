@@ -1,0 +1,44 @@
+﻿body {
+    background: #DBDBDB;
+}
+.contenedor {
+    background: white;
+    display: flex;
+    border-radius: 2em;
+    padding-bottom: 50px;
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.2);
+}
+h2{
+    padding-top:20px;
+}
+h4{
+    padding-bottom:20px;
+}
+.div-cliente{
+    padding:7px 20px;
+}
+.div-producto {
+    padding: 7px 20px;
+}
+.div-proveedor {
+    padding: 7px 20px;
+}
+.clicontenedor{
+    padding:10px 80px;
+}
+h3{
+    padding:10px 80px;
+}
+.boton{
+    position:absolute;
+    left:47%;
+    top:63%;
+}
+.titcon{
+    padding:20px;
+    padding-bottom:30px;
+}
+.desc{
+    padding: 0 80px;
+    font-size:17px;
+}

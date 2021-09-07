@@ -1,0 +1,46 @@
+﻿$padding: 10px 20px !default;
+$paddingcon: 10px 80px !default;
+$topbot: 20px !default;
+body {
+    h2 {
+        padding-top: $topbot;
+    }
+
+    h4 {
+        padding-bottom: $topbot;
+    }
+
+    .contenedor {
+        background: white;
+        display: flex;
+        border-radius: 2em;
+        padding-bottom: 50px;
+        box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.2);
+
+        h3 {
+            padding: $paddingcon;
+        }
+
+        .div-cliente {
+            padding: $padding;
+        }
+
+        .div-producto {
+            padding: $padding;
+        }
+
+        .div-proveedor {
+            padding: $padding;
+        }
+
+        .clicontenedor {
+            padding: $paddingcon;
+        }
+    }
+
+    .boton {
+        position: absolute;
+        left: 47%;
+        top: 63%;
+    }
+}
