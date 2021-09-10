@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ControlWeb.SiteMaster" %>
+
+<form id="form1" runat="server">
+    <asp:Label ID="Ctrl" runat="server" Text="Test Border" BorderStyle="Dashed"></asp:Label>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <asp:CheckBoxList ID="chklst" runat="server">
+    </asp:CheckBoxList>
+    <br />
+    <br />
+    <asp:Button ID="cmdOK" runat="server" OnClick="cmdOK_Click" Text="Button" />
+    <br />
+    <asp:Label ID="lblResult" runat="server" Text="Label"></asp:Label>
+</form>
+
+
